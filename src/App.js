@@ -1,10 +1,8 @@
 import React from 'react';
-
-function App() {
+import Header from './common/header';
+ function App() {
   return (
-    <div className="bibi">
-      hello world
-    </div>
+      <Header/>
   );
 }
 
