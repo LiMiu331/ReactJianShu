@@ -68,6 +68,12 @@ export const NavSearch = styled.input.attrs({
     &.focused {
         width: 240px;    
     }
+    &.slide-enter{
+    transition: all .2s ease-out;
+ }
+    &.slide-exit{
+    transition: all .2s ease-out;
+ }
 `
 export const Addition = styled.div`
     position: absolute;
@@ -96,12 +102,6 @@ export const Button = styled.div`
 export const SearchWrapper = styled.div`
  position: relative;
  float:left;
- .slide-enter{
-    transition: all .2s ease-out;
- }
- .slide-exit{
-    transition: all .2s ease-out;
- }
  .iconfont{
     position: absolute;
     right:5px;
